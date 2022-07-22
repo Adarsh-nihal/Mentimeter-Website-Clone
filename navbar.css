@@ -16,6 +16,10 @@
 }
 #middle>div{
     padding-left: 20px;;
+    cursor:pointer;
+}
+#middle>div:hover{
+    color:rgb(73, 165, 246)
 }
 #middle>div:nth-child(6){
    padding-left: 200px;;
@@ -70,14 +74,18 @@
 #video{
  width:60%;
  margin:auto;
+ margin-left:150px;;
 }
 #video>img{
     margin-top: 40px;;
-    width:100%;
+    width:130%;
+  
+   
 } 
 #mentiback{
     margin-top: 30px;;
     background-color: rgb(234, 231, 231);
+   
 }
 #mentiback>h1{
     padding-top: 20px;;
@@ -102,12 +110,18 @@
 }
 #explore{
     margin-top: 20px;;
-    margin-left: 540px;;
+    margin-left: 590px;;
     padding:10px;
      color:rgb(86, 99, 243);
      border:3px solid rgb(86, 99, 243);
      border-radius: 4px;;
      margin-bottom: 20px;;
+     font-size: 20px;;
+     cursor: pointer;
+}
+#explore:hover{
+    color:white;
+    background-color: rgb(39, 118, 222);
 }
 
 #mil>h1{
@@ -146,7 +160,7 @@
     grid-template-columns: repeat(2,1fr);
 }
 #milboxi>div>img{
-    width:90%;
+    width:80%;
     
 }
 #milboxi>div>h1{

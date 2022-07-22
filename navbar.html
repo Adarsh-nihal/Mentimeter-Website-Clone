@@ -15,7 +15,7 @@
         <div><b>Solutions</b></div>
         <div><b>Resources</b></div>
         <div><b>Pricing</b></div>
-        <div><b>Enterprise</b></div>
+        <div id="enterprise"><b>Enterprise</b></div>
         <div><button id="log">Log in</button></div>
         <div><button class="sign">Sign up</button></div>
     </div>
@@ -110,5 +110,12 @@
     e.preventDefault()
     window.location.href="explorefeatures.html"
     
+  }
+</script>
+<script>
+  document.querySelector("#enterprise").addEventListener("click",enterprise)
+  function enterprise(){
+    event.preventDefault()
+   window.location.href="enterprise.html"
   }
 </script>
