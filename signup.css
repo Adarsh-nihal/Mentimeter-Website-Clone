@@ -35,7 +35,13 @@ padding-top: 10px;;
     padding:10px;
     cursor:pointer;
     border:0px;
+   
 }
+.btn:hover{
+    background-color: rgb(58, 58, 185);
+    color: white;
+}
+
 #facb{
     background-color: rgb(71, 117, 216);
     color: white;
@@ -62,6 +68,9 @@ h3{
     background-color:  rgb(86, 99, 243);
     color:white;
     border:0px;
+}
+#signup:hover{
+   background-color: rgb(36, 36, 108);
 }
 #sp{
     color:blue;
