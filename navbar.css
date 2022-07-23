@@ -1,15 +1,19 @@
  #top{
     display:flex;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
 }
 #img{
-   
+  
     display:flex;
 }
 #img>img{
     width:20%;
 }
 #middle{
+   
     display:flex;
   margin:auto;
   font-size: 20px;;
@@ -29,6 +33,10 @@
     border:0px;
     background-color: white;
     cursor: pointer;
+    padding-top: 5px;
+}
+#log:hover{
+    color:rgb(174, 37, 37)
 }
 .sign{
    font-size: 20px;
@@ -41,18 +49,21 @@
    cursor: pointer;
   
 }
+.sign:hover{
+   background-color: rgb(59, 59, 121);
+}
 #sign{
-    cursor:pointer
+    cursor:pointer;
 }
  #desc{
     text-align: center;
-    width:60%;
+    width:80%;
     margin:auto;
  }
  #desc>h1{
-    font-size: 60px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 65px;
     line-height: 65px;
+    color: rgb(27, 27, 68);
  }
 #desc>h1+p{
     font-size: 29px;
@@ -178,3 +189,58 @@
     
 }
 
+#back{
+    margin-top: 50px;;
+    width:100%;
+    height:400px;
+    background-color: rgb(114, 98, 98);
+ }
+ #back>h1{
+       padding-top: 30px;;
+       padding-left: 300px;
+       padding-right: 200px;
+       font-size:70px;;
+       line-height: 70px;;
+       color:white;
+       text-align: center;
+ }
+ 
+#back>button{
+    margin-bottom: 40px;
+    padding: 15px;
+    margin-left: 600px;
+    margin-top: 50px;;
+    font-size: 25px;;
+    color: rgb(70, 112, 229);
+    border:2px solid rgb(70, 112, 229);
+    width:180px;
+    border-radius: 5px;
+ }
+ #back>button:hover{
+     color:white;
+     background-color: rgb(37, 37, 145);
+ }
+ #last{
+    margin:auto;
+    padding-top: 40px;;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:60px;
+    width:80%;
+   
+ }
+ #las{
+background-color: rgba(220, 228, 247, 0.773);
+ }
+ #last>div>h2{
+    color:rgb(82, 69, 69);
+    font-size: 22px;;
+    line-height: 20px;;
+    cursor: pointer;
+ }
+ #Me{
+    cursor: pointer;
+}
+#Me:hover{
+    color: rgb(156, 57, 126);
+}

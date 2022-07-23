@@ -109,6 +109,7 @@
     padding-top: 50px;;
 }
 #des>div>img{
+    margin-top: 100px;;
     width:100%;
   
 }
@@ -118,10 +119,78 @@ color: rgb(31, 31, 78);
 padding-top:0px;
 }
 ul{
-    font-size: 20px;
+    font-size: 30px;
 }
 .span{
     text-decoration: underline;
     color:rgb(43, 112, 240);
     cursor:pointer;
 }
+#bottom{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width:80%;
+    gap:60px;;
+    margin:auto;
+    margin-top:100px;
+  
+}
+#bottom>div>img{
+    width:100%;
+}
+#bottom>div>h1{
+    font-size: 60px;;
+padding-left: 70px;;
+color: rgb(21, 21, 80);
+}
+#bottom>div>p{
+    font-size: 35px;;
+padding-left: 70px;;
+color: grey;
+}
+#bottom>div>button{
+    font-size: 25px;;
+   margin-left: 70px;;
+   padding: 10px;;
+   border-radius: 5px;;
+   color: rgb(66, 124, 201);
+   border:2px solid rgb(66, 124, 201);;
+}
+#bottom>div>button:hover{
+    color: white;
+    background-color:rgb(35, 76, 187) ;
+}
+#Break{
+    margin:auto;
+    margin-top: 150px;;
+    text-align: center;
+    line-height: 25px;;
+}
+#Break>h1{
+    font-size: 65px;;
+    color: rgb(21, 21, 80);
+}
+#Break>h3{
+    font-size: 27px;;
+    padding-left: 30px;
+    padding-right: 30px;
+    color:rgb(57, 55, 55)
+}
+#Break>button{
+    margin-top: 30px;;
+    padding:10px;
+    font-size: 20px;;
+    color: rgb(54, 54, 186);
+    border: 2px solid rgb(85, 85, 185);
+    border-radius: 5px;;
+ }
+ #Break>button:hover{
+   color: white;
+   background-color: rgb(64, 64, 182);
+ }
+ #Break>img{
+    margin-top: 100px;;
+   width:100%;
+   padding-bottom: 40px;
+    
+ }
